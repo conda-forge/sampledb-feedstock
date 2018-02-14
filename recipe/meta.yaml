@@ -1,6 +1,6 @@
 {% set name = "sampledb" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "95755272543b8cc2852ca73731b669e67ac9f8075d008e6c7c05fad2dff679fd" %}
+{% set version = "0.1.4" %}
+{% set sha256 = "a06b07438cc81dd357935246359df02b2e8e4bead869ba810e79889889473656" %}
 
 package:
   name: {{ name|lower }}
