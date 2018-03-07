@@ -28,6 +28,7 @@ requirements:
     - pandas
     - jsonschema
     - xonsh
+    - pyyaml
     # Note that the qr writer requires latex and I don't want to get into
     # cf tex distributions
 
