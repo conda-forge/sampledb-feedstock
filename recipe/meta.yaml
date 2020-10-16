@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 1002
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: true  # [not py36]
 
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/diffpy/sampledb
-  license: BSD-3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'A DB for sample and synthesis metadata information'
