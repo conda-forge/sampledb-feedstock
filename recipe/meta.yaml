@@ -17,7 +17,7 @@ build:
   skip: true  # [not py36]
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
